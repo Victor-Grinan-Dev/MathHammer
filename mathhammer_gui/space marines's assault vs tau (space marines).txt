@@ -1,0 +1,3 @@
+list name:assault vs tau
+faction:space marines
+author:space marines
