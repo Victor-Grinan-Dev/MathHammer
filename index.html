@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MathHammer</title>
+</head>
+<body>
+    <form>
+        <table>
+            <thead>
+                <h1>MathHammer Online!</h1>
+                <div>
+                    <!-- <label for="armyName"> Army Name</label> -->                
+                </div>
+                <div>
+                    <!-- <input class="shotMeta" type="text" name="armyName"> -->
+                   
+                </div>
+            </thead>
+            <tr>
+                <td>
+                    <div>
+                        <label for="unitName"> Unit </label>
+                    </div>
+                    <div>
+                        <input class="shotMeta" type="text" name="unitName" id="unitName">
+                    </div>
+                        
+                </td>
+                <td>
+                    <div>
+                        <label for="weaponName"> Weapon </label>
+                    </div>
+                    <div>
+                        <input class="shotMeta" type="text" name="weaponName" id="weaponName">
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <label for="target"> Target </label>
+                    </div>
+                    <div>
+                        <input class="shotMeta" type="text" name="target" id="target">
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <div>
+                        <label class="math" for="amount"> Shots </label> 
+                    </div>
+                    <div>
+                        <input class="math" type="number" name="amount" id="amount">
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <label class="math" for="bs"> BS </label> 
+                    </div>
+                    <div>
+                        <input class="math" type="number" name="bs" id="bs">
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <label for="strength"> S </label> 
+                    </div>
+                    <div>
+                        <input class="math" type="number" name="strength" id="strength">
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <label for="armorPen"> AP </label> 
+                    </div>
+                    <div>
+                        <input class="math" type="number" name="armorPen" id="armorPen">
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <label for="toughness"> T </label> 
+                    </div>
+                    <div>
+                        <input class="math" type="number" name="toughness" id="toughness">
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <label for="save"> Save </label> 
+                    </div>
+                    <div>
+                        <input class="math" type="number" name="save" id="save">
+                    </div>
+                </td>
+            </tr>
+         
+        </table>
+        <input type="button" value="Fire!" onclick="test()">
+        <div>
+            <h1>wounds inflicted:</h1>
+            <h1>0</h1>
+        </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
